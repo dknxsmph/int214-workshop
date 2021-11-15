@@ -1,6 +1,6 @@
 ---
 title: "INT214: Workshop"
-author: "by: _____________"
+author: "by: NATTHAKAN THAWEEWATTHANAPRAYUN 63130500031"
 output: html_document
 ---
 
@@ -12,9 +12,12 @@ When you click the **Knit** button a document will be generated that includes bo
 ### 1.) Import Library and Preparing Dataset
 #### Import Lib
 ```{r packages, message=FALSE, warning=FALSE}
+
+library(MASS)
 library(readr)
 library(dplyr)
 library(ggplot2)
+library(MASS)
 library(rmarkdown)
 ```
 
@@ -64,3 +67,6 @@ ggplot(sample_data, aes(x=height)) + geom_density(fill="#69b3a2",color="#e9ecef"
 
 -----
 Created Template File by [Safe_SIT23](https://github.com/safesit23)
+
+
+
